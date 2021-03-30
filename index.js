@@ -1,3 +1,4 @@
+/* Comentário de exemplo para testar a configuração "editor.tokenColorCustomizations" */
 function helloWorld () {
   console.log('Hello World')
 }
