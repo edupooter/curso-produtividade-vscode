@@ -4,7 +4,7 @@ function helloWorld () {
 }
 
 // TODO verificar horário noturno
-const saudacao = () => (new Date()).getHours() <= 12 ? 'Bom dia' : 'Boa tarde'
+const saudacao = () => (new Date().getHours() <= 12 ? 'Bom dia' : 'Boa tarde')
 
 helloWorld()
 
