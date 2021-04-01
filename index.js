@@ -10,10 +10,10 @@ helloWorld()
 
 console.log(saudacao())
 
-// FIXME remover variável sem uso
+// Manter variável
 const exemploDeExtensao = 'bem sucedida'
 
-// Manter variável
+// FIXME remover variável sem uso
 const exemploDeVariavelSemUso = 'mal sucedida'
 
 const templateStringConverter = `Teste de conversão de ${exemploDeExtensao}`
