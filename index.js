@@ -3,8 +3,19 @@ function helloWorld () {
   console.log('Hello World')
 }
 
-// TODO verificar horário noturno
-const saudacao = () => (new Date().getHours() <= 12 ? 'Bom dia' : 'Boa tarde')
+const saudacao = () => {
+  // (new Date().getHours() <= 12 ? 'Bom dia' : 'Boa tarde')
+
+  const hora = new Date().getHours()
+
+  if (hora <= 12) return 'Bom dia'
+
+  if (hora <= 18) return 'Boa tarde'
+
+  console.log(hora)
+
+  return 'Boa noite'
+}
 
 helloWorld()
 
